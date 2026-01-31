@@ -1,0 +1,6 @@
+event-registration-backup-system/
+├── app.py
+├── requirements.txt
+├── .streamlit/
+│   └── config.toml
+└── README.md
