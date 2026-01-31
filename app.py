@@ -169,7 +169,7 @@ except ImportError:
         st.sidebar.markdown("""
         <div style="text-align: center; margin-bottom: 2rem;">
             <h1 style="color: #4CAF50;">🌿 Rooted World Tour</h1>
-            <p style="color: #666;">Worship Night Encounter</p>
+            <p style="color: #666;">Worship Court Lagos</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -599,7 +599,7 @@ if 'ticket' in query_params and 'action' in query_params:
                         <p style="margin: 10px 0 0 0;">🕐 <strong>Time:</strong> {datetime.now().strftime("%I:%M %p")}</p>
                     </div>
                     <p style="color: #666; font-size: 0.9rem;">
-                        Enjoy the Worship Night Encounter!<br>
+                        Enjoy the Worship Court Lagos!<br>
                         Please proceed to the main auditorium.
                     </p>
                 </div>
@@ -635,7 +635,7 @@ if st.session_state.page == "Home":
     st.markdown("""
     <div class="main-header">
         <h1>ROOTED WORLD TOUR</h1>
-        <h2>WORSHIP NIGHT ENCOUNTER • MOBILE REGISTRATION SYSTEM</h2>
+        <h2>Worship Court Lagos • MOBILE REGISTRATION SYSTEM</h2>
     </div>
     """, unsafe_allow_html=True)
     
@@ -795,9 +795,9 @@ elif st.session_state.page == "Register":
     
     # Show current event info
     st.info("""
-    **Current Event:** Rooted World Tour Worship Night  
-    **Date:** Saturday, 8:00 PM  
-    **Location:** Main Auditorium  
+    **Current Event:** Worship Court Lagos
+    **Date:** Sunday, 5:00 PM  
+    **Location:** La Madison Place Block 2, Okunlade Bluewaters Scheme, Lekki 105102, Lagos Nigeria. 
     **Check-in Method:** QR Code Scanning
     """)
 
@@ -2232,9 +2232,9 @@ st.markdown("""
 <div style="text-align: center; color: #666; font-size: 0.9em; padding: 20px 0;">
     <p><strong>Rooted World Tour Emergency Registration System • v3.0</strong></p>
     <p>Mobile Registration & QR Code Check-in System</p>
-    <p>For support: tech@rootedworldtour.com • (555) 123-HELP</p>
+    <p>For support: WORSHIPCOURT@VICTORTHOMPSON.COM • (+234) 8145842425</p>
     <p style="font-size: 0.8em; margin-top: 10px;">
-        🛠️ Built with Streamlit • 📱 Mobile Optimized • 🔒 Secure • ☁️ Google Drive Sync
+        🛠️ Built by Jimmy Ukaba • 📱 (+234) 9032439647 • 🔒 Secure • ☁️ jimmyukaba1234@gmail.com
     </p>
 </div>
 """, unsafe_allow_html=True)
