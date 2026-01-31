@@ -1226,7 +1226,7 @@ elif st.session_state.page == "Check-in":
         st.markdown("---")
         st.markdown("### Option 2: Auto-checkin from Camera App")
         
-        app_url = st.secrets.get("APP_URL", "http://localhost:8501")
+        app_url = st.secrets.get("APP_URL", "https://worship-court-4ygkqctcw64shjludxserw.streamlit.app/")
         st.info(f"""
         **How to use your phone's camera:**
         1. Open your **phone's camera app** (not this app)
