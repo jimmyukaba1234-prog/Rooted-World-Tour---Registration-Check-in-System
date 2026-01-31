@@ -233,9 +233,9 @@ def create_sidebar():
         st.markdown("### 📅 Current Event")
         st.info("""
         **Rooted World Tour**  
-        Worship Night Encounter  
-        *Saturday, 8:00 PM*  
-        Main Auditorium
+        Worship Court Lagos 
+        *Sunday, 5:00 PM*  
+        La Madison Place Block 2, Plot 1,Okunlade Bluewaters Scheme, Lekki 105102, Lagos Nigeria.
         """)
         
         # Quick Stats
