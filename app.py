@@ -697,11 +697,6 @@ if st.session_state.page == "Home":
         st.metric("Pending Check-in", stats.get('pending', 0))
         st.markdown('</div>', unsafe_allow_html=True)
     
-    # Recent Activity
-    st.subheader("🕐 Recent Registrations")
-    
-    
-    
     # Mobile Registration QR Code Section
     st.subheader("📱 Mobile Registration QR")
     
