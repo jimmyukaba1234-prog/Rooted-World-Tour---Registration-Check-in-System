@@ -700,37 +700,7 @@ if st.session_state.page == "Home":
     # Recent Activity
     st.subheader("🕐 Recent Registrations")
     
-    # Simulate recent registrations
-    st.markdown("""
-    <div style="background: #1a1a2e; padding: 1rem; border-radius: 10px;">
-        <table style="width: 100%; color: white; border-collapse: collapse;">
-            <tr>
-                <th style="text-align: left; padding: 8px;">Ticket ID</th>
-                <th style="text-align: left; padding: 8px;">Name</th>
-                <th style="text-align: left; padding: 8px;">Status</th>
-                <th style="text-align: left; padding: 8px;">Time</th>
-            </tr>
-            <tr>
-                <td style="padding: 8px;">RWT-ABC123</td>
-                <td style="padding: 8px;">John Doe</td>
-                <td style="padding: 8px;"><span class="status-badge status-checked_in">Checked In</span></td>
-                <td style="padding: 8px;">08:30 PM</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;">RWT-DEF456</td>
-                <td style="padding: 8px;">Jane Smith</td>
-                <td style="padding: 8px;"><span class="status-badge status-registered">Registered</span></td>
-                <td style="padding: 8px;">08:25 PM</td>
-            </tr>
-            <tr>
-                <td style="padding: 8px;">VIP-GHI789</td>
-                <td style="padding: 8px;">Bob Johnson</td>
-                <td style="padding: 8px;"><span class="status-badge status-checked_in">Checked In</span></td>
-                <td style="padding: 8px;">08:15 PM</td>
-            </tr>
-        </table>
-    </div>
-    """, unsafe_allow_html=True)
+    
     
     # Mobile Registration QR Code Section
     st.subheader("📱 Mobile Registration QR")
