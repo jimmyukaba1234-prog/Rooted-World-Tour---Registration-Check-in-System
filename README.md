@@ -1,5 +1,5 @@
 # Event Registration Backup System
-website: https://shorturl.at/j5LC6
+website: https://shorturl.at/VaadZ
 
 A Streamlit-based backup registration system for events when the main scanning machine stops working.
 
