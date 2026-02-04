@@ -128,39 +128,11 @@ except ImportError:
     def create_dashboard_charts(stats, df):
         return {}
     
-    def create_registration_form():
-        # Simple form for demo
-        with st.form("registration_form"):
-            col1, col2 = st.columns(2)
-            with col1:
-                first_name = st.text_input("First Name *", value="John")
-                email = st.text_input("Email *", value="john@example.com")
-                phone = st.text_input("Phone", value="")
-                worship_team = st.checkbox("Worship Team Member")
-            with col2:
-                last_name = st.text_input("Last Name *", value="Doe")
-                emergency_contact = st.text_input("Emergency Contact", value="")
-                medical_notes = st.text_area("Medical Notes", value="")
-                volunteer = st.checkbox("Volunteer")
-            
-            submitted = st.form_submit_button("Register Attendee", type="primary")
-            
-            if submitted:
-                if not first_name or not last_name or not email:
-                    st.error("Please fill in all required fields (*)")
-                    return False, {}
-                else:
-                    return True, {
-                        'first_name': first_name,
-                        'last_name': last_name,
-                        'email': email,
-                        'phone': phone,
-                        'emergency_contact': emergency_contact,
-                        'medical_notes': medical_notes,
-                        'worship_team': worship_team,
-                        'volunteer': volunteer
-                    }
-        return False, {}
+
+
+
+
+    
     
     def format_phone(phone):
         return phone
