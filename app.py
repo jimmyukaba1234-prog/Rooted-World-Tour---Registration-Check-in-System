@@ -169,7 +169,7 @@ except ImportError:
         st.sidebar.markdown("""
         <div style="text-align: center; margin-bottom: 2rem;">
             <h1 style="color: #4CAF50;">🌿 Rooted World Tour</h1>
-            <p style="color: #666;">Worship Night Encounter</p>
+            <p style="color: #666;">Worship Court Lagos</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -599,7 +599,7 @@ if 'ticket' in query_params and 'action' in query_params:
                         <p style="margin: 10px 0 0 0;">🕐 <strong>Time:</strong> {datetime.now().strftime("%I:%M %p")}</p>
                     </div>
                     <p style="color: #666; font-size: 0.9rem;">
-                        Enjoy the Worship Night Encounter!<br>
+                        Enjoy the WORSHIP COURT LAGOS!<br>
                         Please proceed to the main auditorium.
                     </p>
                 </div>
@@ -635,7 +635,7 @@ if st.session_state.page == "Home":
     st.markdown("""
     <div class="main-header">
         <h1>ROOTED WORLD TOUR</h1>
-        <h2>WORSHIP NIGHT ENCOUNTER • MOBILE REGISTRATION SYSTEM</h2>
+        <h2>WORSHIP COURT LAGOS • MOBILE REGISTRATION SYSTEM</h2>
     </div>
     """, unsafe_allow_html=True)
     
@@ -796,8 +796,8 @@ elif st.session_state.page == "Register":
     # Show current event info
     st.info("""
     **Current Event:** Rooted World Tour Worship Night  
-    **Date:** Saturday, 8:00 PM  
-    **Location:** Main Auditorium  
+    **Date:** Saturday, 5:00 PM  
+    **Location:** La Madison Place Block 2, Plot 1,Okunlade Bluewaters Scheme, Lekki 105102, Lagos Nigeria. 
     **Check-in Method:** QR Code Scanning
     """)
 
