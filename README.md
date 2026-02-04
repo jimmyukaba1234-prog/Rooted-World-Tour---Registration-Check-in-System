@@ -107,11 +107,11 @@ Both should see the same data because they share event_registration.db.
 - People loved the mobile registration — no long queues, no paper forms
 - Next version could add SMS/email confirmations, waitlist, or name badge printing
 
-If you're organizing an event and want to avoid losing registration data again, feel free to fork this or reach out — happy to help adapt it.
+If you're organizing an event and want to avoid losing registration data again, feel free to fork this or reach out happy to help adapt it.
 
 Thanks for checking it out!
 
-— Ukaba  
+Ukaba Jimmy
 Data Analyst & Volunteer, Rooted World Tour 2026
 
 
