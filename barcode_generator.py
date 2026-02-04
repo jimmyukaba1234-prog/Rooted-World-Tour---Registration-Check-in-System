@@ -6,7 +6,7 @@ import uuid
 
 class EventQRGenerator:
     def __init__(self):
-        self.base_url = st.secrets.get("APP_URL", "https://worship-court-feksijgjxqemcpddzdma7h.streamlit.app/")
+        self.base_url = st.secrets.get("APP_URL", "https://worship-court-ew5d8shfk5zqvypkg5tyvr.streamlit.app/")
     
     def generate_ticket_id(self, prefix="RWT"):
         """Generate unique ticket ID with prefix"""
