@@ -169,7 +169,7 @@ except ImportError:
         st.sidebar.markdown("""
         <div style="text-align: center; margin-bottom: 2rem;">
             <h1 style="color: #4CAF50;">🌿 Rooted World Tour</h1>
-            <p style="color: #666;">Worship Night Encounter</p>
+            <p style="color: #666;">Worship Court Lagos</p>
         </div>
         """, unsafe_allow_html=True)
         
@@ -599,7 +599,7 @@ if 'ticket' in query_params and 'action' in query_params:
                         <p style="margin: 10px 0 0 0;">🕐 <strong>Time:</strong> {datetime.now().strftime("%I:%M %p")}</p>
                     </div>
                     <p style="color: #666; font-size: 0.9rem;">
-                        Enjoy the Worship Night Encounter!<br>
+                        Enjoy the Worship Court Lagos!<br>
                         Please proceed to the main auditorium.
                     </p>
                 </div>
@@ -635,7 +635,7 @@ if st.session_state.page == "Home":
     st.markdown("""
     <div class="main-header">
         <h1>ROOTED WORLD TOUR</h1>
-        <h2>WORSHIP NIGHT ENCOUNTER • MOBILE REGISTRATION SYSTEM</h2>
+        <h2>Worship Court Lagos • MOBILE REGISTRATION SYSTEM</h2>
     </div>
     """, unsafe_allow_html=True)
     
