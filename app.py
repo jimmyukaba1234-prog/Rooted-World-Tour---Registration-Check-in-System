@@ -81,12 +81,6 @@ def _extract_ticket_id(qr_data):
     if 'google_auth_message' not in st.session_state:
         st.session_state.google_auth_message = ""
     
-    # ── Auto-checkin from URL (keep as-is) ───────────────────────────────────
-    query_params = st.query_params
-    if 'ticket' in query_params and 'action' in query_params:
-        # ... your full auto-checkin success/failure page ...
-        # (keep everything from here until st.stop())
-        # ...
 
 # ── Sidebar ───────────────────────────────────────────────────────────────
 # IMPORTANT: We removed "Register" from the menu
@@ -239,3 +233,4 @@ st.markdown("""
 </div>
 
 """, unsafe_allow_html=True)
+
