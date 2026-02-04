@@ -51,42 +51,42 @@ except ImportError:
     # EventDatabase, BarcodeGenerator, format_phone, create_sidebar ...
     pass  # ← paste your fallback code if needed
 
-# ── GoogleDriveManager class (keep as-is) ────────────────────────────────
-# ... paste the whole GoogleDriveManager class here ...
+# ── GoogleDriveHandler class (keep as-is) ────────────────────────────────
+# ... paste the whole GoogleDriveHandler class here ...
 
 # ── Helper functions (keep as-is) ────────────────────────────────────────
 def _extract_ticket_id(qr_data):
     # ... your original function ...
 
-# ── Custom CSS (keep as-is) ──────────────────────────────────────────────
-# ... paste your full <style> block here ...
-
-# ── Session state initialization (keep as-is) ────────────────────────────
-if 'db' not in st.session_state:
-    st.session_state.db = EventDatabase()
-if 'barcode_gen' not in st.session_state:
-    st.session_state.barcode_gen = BarcodeGenerator()
-if 'scan_history' not in st.session_state:
-    st.session_state.scan_history = []
-if 'last_scanned' not in st.session_state:
-    st.session_state.last_scanned = None
-if 'page' not in st.session_state:
-    st.session_state.page = "Home"
-if 'camera_active' not in st.session_state:
-    st.session_state.camera_active = False
-if 'drive_manager' not in st.session_state:
-    st.session_state.drive_manager = GoogleDriveManager()
-if 'google_auth_status' not in st.session_state:
-    st.session_state.google_auth_status = "Not connected"
-if 'google_auth_message' not in st.session_state:
-    st.session_state.google_auth_message = ""
-
-# ── Auto-checkin from URL (keep as-is) ───────────────────────────────────
-query_params = st.query_params
-if 'ticket' in query_params and 'action' in query_params:
-    # ... your full auto-checkin success/failure page ...
-    # (keep everything from here until st.stop())
-    # ...
+    # ── Custom CSS (keep as-is) ──────────────────────────────────────────────
+    # ... paste your full <style> block here ...
+    
+    # ── Session state initialization (keep as-is) ────────────────────────────
+    if 'db' not in st.session_state:
+        st.session_state.db = EventDatabase()
+    if 'barcode_gen' not in st.session_state:
+        st.session_state.barcode_gen = BarcodeGenerator()
+    if 'scan_history' not in st.session_state:
+        st.session_state.scan_history = []
+    if 'last_scanned' not in st.session_state:
+        st.session_state.last_scanned = None
+    if 'page' not in st.session_state:
+        st.session_state.page = "Home"
+    if 'camera_active' not in st.session_state:
+        st.session_state.camera_active = False
+    if 'drive_manager' not in st.session_state:
+        st.session_state.drive_manager = GoogleDriveHandler()
+    if 'google_auth_status' not in st.session_state:
+        st.session_state.google_auth_status = "Not connected"
+    if 'google_auth_message' not in st.session_state:
+        st.session_state.google_auth_message = ""
+    
+    # ── Auto-checkin from URL (keep as-is) ───────────────────────────────────
+    query_params = st.query_params
+    if 'ticket' in query_params and 'action' in query_params:
+        # ... your full auto-checkin success/failure page ...
+        # (keep everything from here until st.stop())
+        # ...
 
 # ── Sidebar ───────────────────────────────────────────────────────────────
 # IMPORTANT: We removed "Register" from the menu
@@ -237,4 +237,5 @@ st.markdown("""
     <p><strong>Rooted World Tour Registration System • Admin View</strong></p>
     <p>For support: tech@rootedworldtour.com</p>
 </div>
+
 """, unsafe_allow_html=True)
